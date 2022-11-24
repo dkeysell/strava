@@ -1,0 +1,70 @@
+{
+	"segments": [
+		{
+			"id": 1245884,
+			"resource_state": 2,
+			"name": "Gap Road Dash",
+			"climb_category": 0,
+			"climb_category_desc": "NC",
+			"avg_grade": -2.3,
+			"start_latlng": [
+				51.4274236,
+				-0.1984829
+			],
+			"end_latlng": [
+				51.4278423,
+				-0.1925697
+			],
+			"elev_difference": 9.4,
+			"distance": 415.2,
+			"points": "kl{xHpwe@UkFs@yMKwE@aG",
+			"starred": false,
+			"elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/KGGZYLHNP6GDZBBXH5TQHYFI73VGESSMD3HRSSJE64PSWOKKIH4OM7RFEI5VJBMTH4RDTLIUSCDZOXQZC5AKS===",
+			"local_legend_enabled": true
+		},
+		{
+			"id": 1858137,
+			"resource_state": 2,
+			"name": "The Graveyard Shunt",
+			"climb_category": 0,
+			"climb_category_desc": "NC",
+			"avg_grade": -2.0,
+			"start_latlng": [
+				51.4272424718844,
+				-0.19977738149482735
+			],
+			"end_latlng": [
+				51.42770322510174,
+				-0.19084244035202155
+			],
+			"elev_difference": 12.3,
+			"distance": 630.0,
+			"points": "gk{xHr_f@Ku@WkEM{ES}C[iDKmDIsABaJBuAZgE?a@G_@?O",
+			"starred": false,
+			"elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/ZDQWEGXSZYZGDMXV4WTGOHJUCE5UI3IC4HJFALVHXTY7F6JPOCXPR6RUT4EKUPNKE4PNZXX72G7W6XZ2QT4WK===",
+			"local_legend_enabled": true
+		},
+		{
+			"id": 3985861,
+			"resource_state": 2,
+			"name": "Ashcombe Road Sprint",
+			"climb_category": 0,
+			"climb_category_desc": "NC",
+			"avg_grade": 1.0,
+			"start_latlng": [
+				51.423924,
+				-0.197649
+			],
+			"end_latlng": [
+				51.427402,
+				-0.197755
+			],
+			"elev_difference": 5.0,
+			"distance": 419.2,
+			"points": "ovzxHhre@KHSf@c@j@SReBfAIDSBs@I[KyAm@qBeAiBs@a@Cs@R",
+			"starred": false,
+			"elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/DMFWFA25UG7ZRSTTRIKYHN6PXPUT6OUSZVRQW3WQAZHPIVYIJYDYQR2FUEBDX6P2G7MKU2N7337I5ZA2VMGWG===",
+			"local_legend_enabled": true
+		}
+	]
+}

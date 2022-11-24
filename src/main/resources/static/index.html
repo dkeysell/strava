@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+    <head lang="en">
+        <title>segment finder</title>
+        <meta name="viewport" content="device-width,initial-scale=1">
+        <script src=https://code.jquery.com/jquery-3.6.0.min.js></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script type="module" src="./index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="p1" class="lead">Segment Finder</h1>
+            
+            <form action="/some" method="post" id="discover-form">
+                <input name="swLat" placeholder="Latitude"/>
+                <span id="lat-error"></span>
+                <br>
+                <input name="swLong" placeholder="Longitude"/>
+                <span id="long-error"></span>
+                <br>
+                <input name="size" placeholder="Size"/>
+                <span id="size-error"></span>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            
+            
+            
+            <p id="discover_output"><p>
+            
+            <h2 id="segments_header"> Segments</h2>
+            <table id="segments">
+                <thead>
+                    <tr>
+                        <th><button id="name" class="column">Name</button></th>
+                        <th><button id="qomWatts" class="column">QoM Watts</button></th>
+                        <th><button id="komWatts" class="column">KoM Watts</th>
+                        <th><button id="distance" class="column">Distance</th>
+                        <th><button id="average_grade" class="column">Av Grade</th>
+                        <th><button id="maximum_grade" class="column">Max Grade</th>
+                        <th><button id="elevation_low" class="column">Elevation Low</th>
+                        <th><button id="elevation_high" class="column">Elevation High</th>
+                        <th><button id="qom" class="column">QoM</th>
+                        <th><button id="kom" class="column">KoM</th>
+                        <th><button id="athlete_count" class="column">Athlete Count</th>
+                        <th><button id="effort_count" class="column">Effort Count</th>
+                        <th><button id="climb_category" class="column">Climb Cat</th>
+                        <th><button id="city" class="column">City</th>
+                        <th><button id="state" class="column">State</th>
+                        <th><button id="country" class="column">Country</th>
+                    <tr>
+                </thead>
+            </table>
+        </header>
+        <section>
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>
