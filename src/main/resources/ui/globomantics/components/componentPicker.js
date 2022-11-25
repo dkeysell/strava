@@ -2,10 +2,10 @@ import navValues from "../helpers/navValues";
 import Segment from "./segment";
 import SegmentList from "./segmentList";
 
-const ComponentPicker = ({currentNavLocation}) => {
+const ComponentPicker = ({currentNavLocation, segments, setSegments}) => {
     switch (currentNavLocation) {
         case navValues.home:
-            return <SegmentList/>;
+            return <SegmentList segments={segments} setSegments={setSegments}/>;
         case navValues.segment:
             return <Segment/>;
         default:

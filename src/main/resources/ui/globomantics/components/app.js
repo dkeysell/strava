@@ -10,6 +10,7 @@ const App = () => {
         (navTo, param) => setNav({current: navTo, param, navigate}),
         []
     );
+    const [segments, setSegments] = useState([]);
 
     const [nav, setNav] = useState({current: navValues.home, navigate});
     return (
@@ -17,7 +18,7 @@ const App = () => {
             <Banner>
                 <div>Segment Finder</div>
             </Banner>
-            <ComponentPicker currentNavLocation={nav.current}/>
+            <ComponentPicker currentNavLocation={nav.current} segments={segments} setSegments={setSegments}/>
         </navigationContext.Provider>
     );
 };

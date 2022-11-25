@@ -2,12 +2,10 @@ import SegmentRow from "./segmentRow";
 import {useState, useEffect} from 'react';
 
 
-const SegmentList = () => {
-    const [segments, setSegments] = useState([]);
-
+const SegmentList = ({segments, setSegments}) => {
     const querySegments = () => {
         
-        const swLat = 51.4;
+        const swLat = 52.4;
         const swLong = -0.7;
         const size = 2;
         
@@ -16,9 +14,10 @@ const SegmentList = () => {
             })
         
     }
-    if(segments.length > 0){
+    
     return (
         <>
+        
             <table className="table table-hover">
                 <thead>
                     <tr>
@@ -32,16 +31,14 @@ const SegmentList = () => {
                 </tbody>
 
             </table>
-            
-        </>
-    );
-    } else {
-        return (
+
             <button className="btn btn-primary" onClick={querySegments}>
                 Query segments
             </button>
-        );
-    }
+            
+        </>
+    );
+    
 };
 
 export default SegmentList;
