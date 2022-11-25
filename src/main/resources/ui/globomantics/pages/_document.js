@@ -11,8 +11,9 @@ export default function Document() {
                   <link rel="stylesheet" href="css/global.css" />
             </Head>
             <body>
-               <div className="container"></div>
+               <div className="container">
                <Main />
+               </div>
                <NextScript />
             </body>
         </Html>
