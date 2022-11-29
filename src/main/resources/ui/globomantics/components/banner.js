@@ -5,7 +5,7 @@ import navValues from "../helpers/navValues";
 
 const subtitleStyle = {
     fontStyle: "italic",
-    fontSize: "x-large",
+    fontSize: "XXX-large",
     color: "coral",
 };
 

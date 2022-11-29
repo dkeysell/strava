@@ -7,6 +7,11 @@ tr {
 }
 
 .logo {
-    height: 150px;
+    height: 25px;
     cursor: pointer;
+}
+
+.map-container {
+    width: 100%;
+    height: 70vh;
 }
