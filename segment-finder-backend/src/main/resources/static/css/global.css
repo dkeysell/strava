@@ -1,0 +1,17 @@
+.themeFontColor {
+    color: coral;
+}
+
+tr {
+    cursor: pointer;
+}
+
+.logo {
+    height: 25px;
+    cursor: pointer;
+}
+
+.map-container {
+    width: 100%;
+    height: 70vh;
+}
